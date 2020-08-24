@@ -12,9 +12,9 @@ exports.up = async function(knex) {
         // translates to "mileage" INTEGER NOT NULL
         table.integer("mileage").notNull()
         // translates to "transmission" TEXT 
-        table.text("transmission-type")
+        table.text("transmissionType")
         // translates to "title status" TEXT 
-        table.text("title-status")
+        table.text("titleStatus")
     })
 };
 
